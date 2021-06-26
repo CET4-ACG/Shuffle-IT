@@ -92,7 +92,7 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
         else if (SceneManager.GetActiveScene().name == "Level11")
         {
-            if (word == "COMPRESSOR")
+            if (word == "PROCESSOR")
             {
                 LoadScene("Level11-SC");
             }
@@ -150,5 +150,6 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void QuitButton()
     {
         Application.Quit();
+        PlayerPrefs.DeleteAll();
     }
 }

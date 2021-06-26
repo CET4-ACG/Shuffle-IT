@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ButtonSettings.cs" />
      <Compile Include="Assets\Scripts\ChangeSprite.cs" />
+     <Compile Include="Assets\Scripts\LevelManagerUnlocked.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\UserInput.cs" />
  <Reference Include="UnityEngine.Purchasing">
