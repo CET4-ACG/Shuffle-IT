@@ -125,11 +125,41 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 LoadScene("Level15-SC");
             }
         }
-    }
-
-    public void ToStages()
-    {
-        Stages.SetActive(true);
+        else if (SceneManager.GetActiveScene().name == "Level16")
+        {
+            if (word == "WEB DEVELOPMENT")
+            {
+                LoadScene("Level16-SC");
+            }
+        }
+        else if (SceneManager.GetActiveScene().name == "Level17")
+        {
+            if (word == "OPERATING SYSTEM")
+            {
+                LoadScene("Level17-SC");
+            }
+        }
+        else if (SceneManager.GetActiveScene().name == "Level18")
+        {
+            if (word == "RANDOM ACCESS MEMORY")
+            {
+                LoadScene("Level18-SC");
+            }
+        }
+        else if (SceneManager.GetActiveScene().name == "Level19")
+        {
+            if (word == "ARTIFICIAL INTELLIGENCE")
+            {
+                LoadScene("Level19-SC");
+            }
+        }
+        else if (SceneManager.GetActiveScene().name == "Level20")
+        {
+            if (word == "OBJECT ORIENTED PROGRAMMING")
+            {
+                LoadScene("Level20-SC");
+            }
+        }
     }
 
     public void LoadScene(string sceneName)
@@ -145,6 +175,7 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerUp(PointerEventData eventData)
     {
         image.sprite = button;
+        SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Select);
     }
 
     public void QuitButton()

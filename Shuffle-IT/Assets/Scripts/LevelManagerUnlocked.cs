@@ -27,6 +27,7 @@ public class LevelManagerUnlocked : MonoBehaviour {
 	{
 		LevelString = _level;
 		SceneManager.LoadScene(LevelString);
+		SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Select);
 	}
 
 	void Levellocked()

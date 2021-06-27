@@ -28,8 +28,4 @@ public class ButtonSettings : MonoBehaviour
 
 		}
     }
-	//public void ButtonMenu()
-	//{
-	//	SceneManager.LoadScene("Levels");
-	//}
 }

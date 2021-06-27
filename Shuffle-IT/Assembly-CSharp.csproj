@@ -56,6 +56,8 @@
      <Compile Include="Assets\Scripts\ButtonSettings.cs" />
      <Compile Include="Assets\Scripts\ChangeSprite.cs" />
      <Compile Include="Assets\Scripts\LevelManagerUnlocked.cs" />
+     <Compile Include="Assets\Scripts\Music.cs" />
+     <Compile Include="Assets\Scripts\SFXManager.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\UserInput.cs" />
  <Reference Include="UnityEngine.Purchasing">
