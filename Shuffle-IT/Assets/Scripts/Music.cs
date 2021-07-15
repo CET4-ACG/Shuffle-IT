@@ -17,4 +17,5 @@ public class Music : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(this);
     }
+
 }

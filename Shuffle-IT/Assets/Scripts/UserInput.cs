@@ -9,7 +9,7 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public string word;
     public GameObject InputField;
-    public GameObject Stages;
+    public GameObject Options;
 
     public Image image;
     public Sprite button;
@@ -167,6 +167,16 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         SceneManager.LoadScene(sceneName);
     }
 
+    public void ToOptions()
+    {
+        Options.SetActive(true);
+    }
+
+    public void HomeInOption()
+    {
+        Options.SetActive(false);
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
         image.sprite = holdbutton;
@@ -181,6 +191,5 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void QuitButton()
     {
         Application.Quit();
-        PlayerPrefs.DeleteAll();
     }
 }
