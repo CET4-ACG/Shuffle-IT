@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   InputField: {fileID: 1150883993}
-  Stages: {fileID: 0}
+  Options: {fileID: 0}
   image: {fileID: 0}
   button: {fileID: 0}
   holdbutton: {fileID: 0}
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   InputField: {fileID: 0}
-  Stages: {fileID: 0}
+  Options: {fileID: 0}
   image: {fileID: 1219585630}
   button: {fileID: 21300000, guid: 415495ee3b20f334ea1055024de9ecbe, type: 3}
   holdbutton: {fileID: 21300000, guid: 907d9a26fd23a4748a301f463fe7c4b7, type: 3}
@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   InputField: {fileID: 0}
-  Stages: {fileID: 0}
+  Options: {fileID: 0}
   image: {fileID: 1409422422}
   button: {fileID: 21300000, guid: 0e5ed0199953d904c8ef477c403104ea, type: 3}
   holdbutton: {fileID: 21300000, guid: fc7a4444cecf47a4ab4361c5c7145468, type: 3}
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   InputField: {fileID: 0}
-  Stages: {fileID: 0}
+  Options: {fileID: 0}
   image: {fileID: 1970946614}
   button: {fileID: 21300000, guid: 1c5380b65d7249742bdfe9bf0d6a8b24, type: 3}
   holdbutton: {fileID: 21300000, guid: 8ec8c817e13977b4e8d0172953231ecd, type: 3}
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   InputField: {fileID: 0}
-  Stages: {fileID: 0}
+  Options: {fileID: 0}
   image: {fileID: 1998862118}
   button: {fileID: 21300000, guid: aafcab500c5a5e74cbac9d6c55a265e1, type: 3}
   holdbutton: {fileID: 21300000, guid: 23b4430cde211654fa6793878806bef5, type: 3}

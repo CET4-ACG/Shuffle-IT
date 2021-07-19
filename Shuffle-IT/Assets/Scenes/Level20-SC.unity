@@ -226,8 +226,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 582000137}
-        m_MethodName: Reset
-        m_Mode: 1
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -361,10 +361,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 582000131}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad27729ae1c407144ab41c6ea879f372, type: 3}
+  m_Script: {fileID: 11500000, guid: 15fc50b29f3098d48bed51a0c979b0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  credit: {fileID: 0}
+  word: 
+  InputField: {fileID: 0}
+  Options: {fileID: 0}
+  image: {fileID: 0}
+  button: {fileID: 0}
+  holdbutton: {fileID: 0}
 --- !u!1 &584332093
 GameObject:
   m_ObjectHideFlags: 0
