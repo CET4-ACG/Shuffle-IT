@@ -167,16 +167,6 @@ public class UserInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         SceneManager.LoadScene(sceneName);
     }
 
-    public void ToOptions()
-    {
-        Options.SetActive(true);
-    }
-
-    public void HomeInOption()
-    {
-        Options.SetActive(false);
-    }
-
     public void OnPointerDown(PointerEventData eventData)
     {
         image.sprite = holdbutton;

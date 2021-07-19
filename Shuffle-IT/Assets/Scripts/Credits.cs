@@ -33,9 +33,9 @@ public class Credits : MonoBehaviour
         StartCoroutine("FadingIn");
     }
 
-    public void Reset() 
+    public void Reset(string sceneName) 
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene(sceneName);
         PlayerPrefs.DeleteAll();
     }
 }

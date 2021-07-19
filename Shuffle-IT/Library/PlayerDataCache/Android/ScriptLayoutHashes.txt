@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Asus/Desktop/BSCOE/BSCOE 2-6/2nd sem(s.y. 2020-2021)/Computer Engineering Technology 4/Shuffle-IT.apk
+C:/Users/Asus/Desktop/BSCOE/BSCOE 2-6/2nd sem(s.y. 2020-2021)/Computer Engineering Technology 4/Shuffle-IT(ACG).apk
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Levels.unity
@@ -44,6 +44,8 @@ Assets/Scenes/Level19.unity
 Assets/Scenes/Level19-SC.unity
 Assets/Scenes/Level20.unity
 Assets/Scenes/Level20-SC.unity
+Assets/Scenes/Credits.unity
+Assets/Scenes/Options.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -59,6 +61,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MuteManagerMusic
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 4278e88ada04e70cee0e17dbc80fd96d Assembly-CSharp.dll:.ChangeSprite
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -126,7 +129,7 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-ea1181c47f1fea5b5014a2749796057b Assembly-CSharp.dll:.UserInput
+d42b8cc59ffa73386781490707b19673 Assembly-CSharp.dll:.UserInput
 3887ea48eae5ebac916e38aac928e8d3 Assembly-CSharp.dll:.SFXManager
 5862552724ac000546252f89c5101e4b Assembly-CSharp.dll:.ButtonSettings
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -180,6 +183,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 a9f049c3dc82bb36fdb142e4d6a2658d Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 a498bc8569db9b4e3e2b4f220a80253e Assembly-CSharp.dll:.LevelManagerUnlocked
+9f0f017d1772ca3870ae3824aab8a522 Assembly-CSharp.dll:.Credits
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -201,4 +205,3 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-ea6695cd62409e0897bfa67fadca229d Assembly-CSharp.dll:.ScreenSize
